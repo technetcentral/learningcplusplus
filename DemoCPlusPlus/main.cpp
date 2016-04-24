@@ -6,16 +6,18 @@
  */
 //#include "StarHello.h"
 //#include "WhileLoop.h"
-#include "ForLoop.h"
+//#include "ForLoop.h"
+#include "Casting.h"
 
 //WhileLoop mygrades;
-ForLoop triangle;
+// ForLoop triangle;
 
 int main () {
 
 //StarHello hello;
 //mygrades.gradCalc();
-triangle.mytriange();
+//triangle.mytriange();
+Casting cast;
 
 
 
