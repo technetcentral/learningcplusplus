@@ -17,10 +17,11 @@ Casting::Casting() {
 
 
 	cout << (int)3.14 << endl
-			<< (int)3.9 << endl
-			<< (int) -3.14 << endl
-			<< (int) -3.9 << endl
-			<< "Done" << endl;
+		<< (int)3.9 << endl
+		<< (int)-3.14 << endl
+		<< (int)-3.9 << endl
+		<< "Done" << endl;
+		system("pause") ;
 
 
 
