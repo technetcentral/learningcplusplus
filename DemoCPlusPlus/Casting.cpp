@@ -20,6 +20,7 @@ Casting::Casting() {
 		<< (int)3.9 << endl
 		<< (int)-3.14 << endl
 		<< (int)-3.9 << endl
+		<< (int)2.5 << endl
 		<< "Done" << endl;
 		system("pause") ;
 

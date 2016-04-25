@@ -98,15 +98,21 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Casting.cpp" />
+    <ClCompile Include="circle.cpp" />
     <ClCompile Include="ForLoop.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="reverseString.cpp" />
     <ClCompile Include="StarHello.cpp" />
+    <ClCompile Include="vectors.cpp" />
     <ClCompile Include="WhileLoop.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Casting.h" />
+    <ClInclude Include="circle.h" />
     <ClInclude Include="ForLoop.h" />
+    <ClInclude Include="reverseString.h" />
     <ClInclude Include="StarHello.h" />
+    <ClInclude Include="vectors.h" />
     <ClInclude Include="WhileLoop.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

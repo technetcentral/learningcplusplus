@@ -4,24 +4,35 @@
  *  Created on: Apr 19, 2016
  *      Author: alvin
  */
-//#include "StarHello.h"
-//#include "WhileLoop.h"
-//#include "ForLoop.h"
+#include "StarHello.h"
+#include "WhileLoop.h"
+#include "ForLoop.h"
 #include "Casting.h"
+//#include "circle.h"
+//#include "vectors.h"
+#include "reverseString.h"
 
 //WhileLoop mygrades;
 // ForLoop triangle;
+//vectors myhomework; 
+reverseString rit;
 
 int main () {
 
 //StarHello hello;
 //mygrades.gradCalc();
 //triangle.mytriange();
-Casting cast;
+//Casting cast;
+//	circle mycircle;
 
+// myhomework.studentGrades();
 
+	//string home = "My home";
+	rit.myreverseString("home");
+	
 
 return 0;
+
 }
 
 
