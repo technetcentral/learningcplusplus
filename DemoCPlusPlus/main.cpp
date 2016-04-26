@@ -15,7 +15,7 @@
 //WhileLoop mygrades;
 // ForLoop triangle;
 //vectors myhomework; 
-reverseString rit;
+
 
 int main () {
 
@@ -28,8 +28,8 @@ int main () {
 // myhomework.studentGrades();
 
 	//string home = "My home";
-	rit.myreverseString("home");
 	
+	reverseString rit;
 
 return 0;
 
