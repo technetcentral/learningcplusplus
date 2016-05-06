@@ -100,6 +100,7 @@
     <ClCompile Include="Casting.cpp" />
     <ClCompile Include="circle.cpp" />
     <ClCompile Include="ForLoop.cpp" />
+    <ClCompile Include="homework.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="reverseString.cpp" />
     <ClCompile Include="StarHello.cpp" />
@@ -110,6 +111,7 @@
     <ClInclude Include="Casting.h" />
     <ClInclude Include="circle.h" />
     <ClInclude Include="ForLoop.h" />
+    <ClInclude Include="homework.h" />
     <ClInclude Include="reverseString.h" />
     <ClInclude Include="StarHello.h" />
     <ClInclude Include="vectors.h" />

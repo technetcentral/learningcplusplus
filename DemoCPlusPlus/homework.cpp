@@ -1,0 +1,65 @@
+#include <iostream>
+#include <algorithm> // for sorting
+#include "homework.h"
+
+
+homework::homework()
+{
+}
+
+void homework::readHomework(vector<double>& assignments)
+{
+	double x;
+	while (cin >> x)
+	{
+		assignments.push_back(x); // Adds a new element at the end of the vector, after its current last element.
+	}
+	if (assignments.size() == 0) {
+		//cout << endl << "You need to enter at least one homework grade. Please try again";
+		throw domain_error("need at least one homework"); // standard error function for passing an error messege through a program
+	}
+
+	//return 0.0;
+}
+
+
+int homework::studentGrades() {
+	double midterm, final;
+	vector<double> assignments;
+
+	cout << "Please enter your midterm grade: ";
+
+	cin >> midterm;
+
+	cout << "Please enter your final grade: ";
+
+	cin >> final;
+
+	cout << "Enter all your assignment grades, "
+		"followed by Ctl+d: "
+		<< endl;
+	try {   // place the try catch around the code that will be impacted if readHomework function returns domain_error  
+		readHomework(assignments);
+
+		sort(assignments.begin(), assignments.end()); // see vector.cpp for reference 
+
+		int mid = assignments.size() / 2;
+		double median;
+		if (assignments.size() % 2 == 0)
+			median = (assignments[mid - 1] + assignments[mid]) / 2;
+		else
+			median = assignments[mid];
+
+		streamsize prec = cout.precision(3);
+
+		cout << "Your course grade is "
+			<< 0.2 * midterm + 0.4 * final + 0.4 * median << endl;
+		cout.precision(prec);
+	}
+	catch (const domain_error& d) {
+		cout << d.what() << endl; 
+	}
+	
+return		0;
+}
+

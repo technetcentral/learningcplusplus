@@ -11,13 +11,15 @@
 //#include "circle.h"
 //#include "vectors.h"
 #include "reverseString.h"
+#include "homework.h"
 
 //WhileLoop mygrades;
 // ForLoop triangle;
 //vectors myhomework; 
-
+homework myhomework;
 
 int main () {
+
 
 //StarHello hello;
 //mygrades.gradCalc();
@@ -25,11 +27,11 @@ int main () {
 //Casting cast;
 //	circle mycircle;
 
-// myhomework.studentGrades();
+myhomework.studentGrades();
 
 	//string home = "My home";
 	
-	reverseString rit;
+	//reverseString rit;
 
 return 0;
 

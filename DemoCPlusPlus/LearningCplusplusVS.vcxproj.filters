@@ -39,6 +39,9 @@
     <ClCompile Include="reverseString.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="homework.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Casting.h">
@@ -60,6 +63,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="reverseString.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="homework.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
