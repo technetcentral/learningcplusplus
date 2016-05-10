@@ -104,6 +104,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="reverseString.cpp" />
     <ClCompile Include="StarHello.cpp" />
+    <ClCompile Include="student_scores.cpp" />
     <ClCompile Include="vectors.cpp" />
     <ClCompile Include="WhileLoop.cpp" />
   </ItemGroup>
@@ -114,6 +115,7 @@
     <ClInclude Include="homework.h" />
     <ClInclude Include="reverseString.h" />
     <ClInclude Include="StarHello.h" />
+    <ClInclude Include="student_scores.h" />
     <ClInclude Include="vectors.h" />
     <ClInclude Include="WhileLoop.h" />
   </ItemGroup>

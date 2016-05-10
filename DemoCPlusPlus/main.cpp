@@ -12,11 +12,13 @@
 //#include "vectors.h"
 #include "reverseString.h"
 #include "homework.h"
+#include "student_scores.h"
 
 //WhileLoop mygrades;
 // ForLoop triangle;
 //vectors myhomework; 
-homework myhomework;
+//homework myhomework;
+
 
 int main () {
 
@@ -26,12 +28,11 @@ int main () {
 //triangle.mytriange();
 //Casting cast;
 //	circle mycircle;
-
-myhomework.studentGrades();
-
+//myhomework.studentGrades();
 	//string home = "My home";
-	
 	//reverseString rit;
+
+	student_grades();
 
 return 0;
 

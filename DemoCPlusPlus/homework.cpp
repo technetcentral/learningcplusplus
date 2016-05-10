@@ -35,8 +35,16 @@ double homework::compute_median(vector<double> assignments)
 	return median;
 }
 
+void homework::computer_grade(double midterm, double final, double median)
+{
+	streamsize prec = cout.precision(3);
+	cout << "Your course grade is "
+		<< 0.2 * midterm + 0.4 * final + 0.4 * median << endl;
+	cout.precision(prec);
+}
 
 int homework::studentGrades() {
+	
 	double midterm, final;
 	vector<double> assignments;
 	cout << "Please enter your midterm grade: ";
@@ -49,13 +57,8 @@ int homework::studentGrades() {
 	try {   // place the try catch around the code that will be impacted if readHomework function returns domain_error  
 		readHomework(assignments);
 		double median = compute_median(assignments);
-
-
 		// create compute_grade function next: 
-		streamsize prec = cout.precision(3);
-		cout << "Your course grade is "
-			<< 0.2 * midterm + 0.4 * final + 0.4 * median << endl;
-		cout.precision(prec);
+		computer_grade(midterm, final, median);
 	}
 	catch (const domain_error& d) {
 		cout << d.what() << endl; 
